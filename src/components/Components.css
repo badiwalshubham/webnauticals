@@ -1,11 +1,23 @@
 .background-image {
     
-   background-image: url(../../public/techimage2.jpg);
+   background-image: url(../../public/bg51.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 1080px;
-}
-
-.logo {
     
 }
+
+.androidappline{   
+    border-radius: 50px;
+    color: #000000;
+    text-shadow: -6px 6px 15px rgba(0,0,0,0.5),
+      6px -6px 15px rgba(255,255,255,0.8);
+    
+}
+
+.tagline{
+    color: #000000; 
+    font-size: 13px;
+    margin-left: 41px!important;
+    margin-bottom: 8px!important;
+}
+
