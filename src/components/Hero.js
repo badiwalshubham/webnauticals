@@ -4,9 +4,10 @@ import React from 'react'
 import "./Components.css"
 import Image from "next/image";
 import logo from "../../public/logo.png"
-import Dropdown1 from "../../src/components/dropdowns/dropdown1"
-import Dropdown2 from "../../src/components/dropdowns/dropdown2"
-import Dropdown3 from "../../src/components/dropdowns/dropdown3"
+import Dropdown1 from "../../src/components/dropdowns/Dropdown1"
+import Dropdown2 from "../../src/components/dropdowns/Dropdown2"
+import Dropdown3 from "../../src/components/dropdowns/Dropdown3"
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 const Hero = () => {
     return (
@@ -14,7 +15,7 @@ const Hero = () => {
             <nav
                 className="fixed backdrop-filter backdrop-blur-lg bg-opacity-30 top-0 z-10 flex w-full items-center justify-between lg:flex-wrap lg:justify-start"
                 data-te-navbar-ref>
-                <div className="flex w-full mt-3 flex-wrap items-center justify-between px-6">
+                <div className="flex w-full mt-5 flex-wrap items-center justify-between px-6">
                     <div className="flex items-center">
                         <a className="text-primary " href="#!">
                             <span>
@@ -32,8 +33,14 @@ const Hero = () => {
                         <Dropdown1 />
                         <Dropdown2 />
                         <Dropdown3 />
-                        <a ClassName="text-white" href="#">Dashboard</a>
-                        <a ClassName="text-white" href="#">About</a>  
+                        <a class="text-white text-sm font-semibold " href="#">WORK</a>
+                        <a class="text-white text-sm font-semibold" href="#">CONTACT US</a>
+                        <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                            <span class="relative flex gap-x-1 px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                Get Free Quote <ArrowRightIcon className="-mr-1 h-5 w-5 text-white" aria-hidden="true" />
+                            </span> 
+                        </button>
+                       
                     </div>
 
                 </div>
