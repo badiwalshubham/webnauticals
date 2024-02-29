@@ -11,7 +11,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 const Hero = () => {
     return (
-        <section className="background-image mb-40 overflow-hidden">
+        <section className="background-image overflow-hidden">
             <nav
                 className="fixed backdrop-filter backdrop-blur-lg bg-opacity-30 py-2 top-0 z-10 flex w-full items-center justify-between lg:flex-wrap lg:justify-start"
                 data-te-navbar-ref>
