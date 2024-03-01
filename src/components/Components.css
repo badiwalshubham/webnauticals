@@ -32,3 +32,17 @@
 .smallcards{
     background-color: #f2f5f6;
 }
+
+.footerbg{
+    height:fit-content;
+    background: linear-gradient(
+     to right,
+     #3082c7 0%,
+     #317cc2 10%,
+     #2f6fb9 20%,
+     #2e67b4 30%,
+     #2d5bae 44%,
+     #2e2f2e 44%,
+     #2e2f2e 100%
+    );
+}
