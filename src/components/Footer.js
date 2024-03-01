@@ -6,8 +6,7 @@ import Image from "next/image";
 import wordpresslogo from "../../public/wordpresslogo.png"
 
 
-
-const Feature = () => {
+const Footer = () => {
     return (
         <section className="overflow-hidden">
             <div className="px-6 py-24  z-index:9 text-center md:px-12  lg:text-left">
@@ -89,4 +88,4 @@ const Feature = () => {
     )
 }
 
-export default Feature
+export default Footer

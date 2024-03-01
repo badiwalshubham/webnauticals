@@ -83,7 +83,7 @@ const Hero = () => {
                             ---- Our doors are always open and we would love to hear from you
                             </p>
                             <h1
-                                className="androidappline lg:ml-9  text-5xl font-bold tracking-tight md:text-6xl xl:text-4xl ">
+                                className="androidappline lg:ml-9  text-5xl font-bold tracking-tight md:text-2xl xl:text-4xl ">
                                 Android App Development
                             </h1>
 
@@ -95,7 +95,7 @@ const Hero = () => {
 
                                 <form className="px-2">
                                     <div class=" flex  justify-left">
-                                        <h1 className="mb-2 mt-4 text font-bold tracking-tight md:text-4xl xl:text-3xl">
+                                        <h1 className="mb-2 mt-4 text font-bold tracking-tight md:text-3xl xl:text-3xl">
                                             Speak to an Expert
                                         </h1>
                                     </div>

@@ -15,7 +15,7 @@ const Keyhighlight = () => {
                         <div className="relative mb-6  item-center ">
                             <div className='mb-2'>
                                 <h1
-                                    className="text-3xl font-bold tracking-tight md:text-6xl xl:text-2xl">
+                                    className="text-3xl font-bold tracking-tight md:text-2xl xl:text-2xl">
                                     Key Highlights Our Work in Numbers.
                                 </h1>
                             </div>
@@ -26,7 +26,7 @@ const Keyhighlight = () => {
                             <div class="grid grid-cols-3 gap-4">
                                 <div className='text-center item-center'>
                                     <h1
-                                        className="text-3xl text-blue-500  font-bold tracking-tight md:text-6xl xl:text-4xl">
+                                        className="text-3xl text-blue-500  font-bold tracking-tight md:text-2xl xl:text-4xl">
                                         254+
                                     </h1>
                                     <p>
@@ -35,7 +35,7 @@ const Keyhighlight = () => {
                                 </div>
                                 <div  className='text-center item-center'>
                                     <h1
-                                        className="text-3xl text-blue-500 font-bold tracking-tight md:text-6xl xl:text-4xl">
+                                        className="text-3xl text-blue-500 font-bold tracking-tight md:text-2xl xl:text-4xl">
                                         542+
                                     </h1>
                                     <p>
@@ -44,7 +44,7 @@ const Keyhighlight = () => {
                                 </div>
                                 <div  className='text-center item-center'>
                                     <h1
-                                        className="text-3xl text-blue-500 font-bold tracking-tight md:text-6xl xl:text-4xl">
+                                        className="text-3xl text-blue-500 font-bold tracking-tight md:text-2xl xl:text-4xl">
                                         960+
                                     </h1>
                                     <p>
