@@ -58,8 +58,8 @@ const Feature = () => {
                         </div>
 
                         <div>
-                            <div className="item-left">
-                                <div className='item-left mt-3'>
+                            <div className="item-center">
+                                <div className='item-center mt-3'>
                                     <Image
                                         src={wordpresslogo}
                                         alt="Logo"
