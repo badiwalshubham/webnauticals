@@ -41,8 +41,16 @@
      #317cc2 10%,
      #2f6fb9 20%,
      #2e67b4 30%,
-     #2d5bae 46%,
-     #2e2f2e 46%,
+     #2d5bae 45%,
+     #2e2f2e 45%,
      #2e2f2e 100%
     );
+}
+
+.smalltxsize{
+    font-size: 13px;
+}
+
+.addres{
+  font-size: 15px;
 }
